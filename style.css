@@ -1,0 +1,79 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffcfc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333333;
+    color: #fff;
+    margin: 0;
+  }
+
+  section {
+    padding: 0px;
+    margin: 10px;
+    margin-left: 20px;
+  }
+  
+  #post-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #post-form input,
+  #post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #post-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #post-form button:hover {
+    background-color: #555;
+  }
+  
+  #post-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post .author {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post .timestamp {
+    color: #888;
+    font-size: 0.8em;
+  }
+  
+  footer {
+    padding: 20px;
+    margin-left: 0px;
+    color: #fff;
+    background-color: #333;
+    
+  }
